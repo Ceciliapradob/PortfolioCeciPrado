@@ -1,0 +1,226 @@
+
+
+
+.contenedor-sobremi {
+    background: linear-gradient(rgb(233, 236, 236), rgb(211, 137, 201));
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4rem;
+}
+.cecilia{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+}
+
+.contenedor-texto h2 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+   
+
+    gap: 2rem;
+
+}
+.contenedor{
+    background: linear-gradient(rgb(147, 233, 226), rgb(211, 137, 201));
+}
+.contenedor h1{
+    font-size: 25px;
+}
+.cecilia{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+.container-icons-header {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.presentacion-developer {
+    font-size: 35px;
+    
+ 
+}
+
+.presentacion-direccion {
+    text-align: center;
+}
+
+.contenedor-texto .vermas {
+    background-color: black;
+    display: inline;
+    text-align: center;
+    width: 100px;
+    text-decoration: none;
+    color: white;
+}
+
+.contenedor-texto .contacto {
+    color: black;
+}
+
+.contenedor-img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 55%;
+    transition: all 2s ease;
+    transform: translateY(-3%);
+    margin-top: 8%;
+
+}
+
+/*SECCION SOBRE MI*/
+
+.titulo-sobremi h2 {
+    text-align: center;
+    margin-top: 4%;
+}
+
+
+.container-about h2{
+    font-size: 30px;
+}
+
+.container-sobremi {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+
+}
+
+.titulo-sobremi {
+    width: 85%;
+}
+
+.sobremi {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+   
+}
+
+.texto-año {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+/*SECCION INFORMACIÓN SOBRE MI */
+.info-sobremi {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.container-experiencie {
+    display: flex;
+    gap: 6rem;
+}
+
+.año-experiencia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    padding-top: 20px;
+}
+
+p{
+    font-size: 15px;
+    padding: 0em 5em;
+}
+.texto2{
+    font-size: 15px;
+    padding: 0em 5em;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.button-leerMas{
+background-color: rgb(7, 7, 5);
+color: white;
+border: none;
+border-radius: 40px;
+padding: 15px 32px;
+box-shadow: 0px 0px 10px 0px rgb(94, 200, 226);
+cursor: pointer;
+margin-bottom: 3%;
+
+}
+
+.button-leerMas:hover{
+    box-shadow: none;
+    background-color: rgb(222, 67, 236);
+    
+}
+.button-leerMas a{
+    text-decoration: none;
+    color: white;
+}
+
+.parrafo{
+ margin-top: 25px;
+}
+
+
+
+@media (max-width:500px) {
+    .contenedor-texto .presentacion-developer{
+        font-size: 20px;
+    }
+    .contenedor{
+        background: linear-gradient(rgb(147, 233, 226), rgb(211, 137, 201));
+        margin-left: 0;
+        
+    }
+    .button-leerMas{
+        margin-left: 5%;
+    }
+    .presentacion-foto{
+     width: 200px;
+    }
+   
+}
+@media (max-width:768px) {
+    .contenedor-texto .presentacion-developer{
+        font-size: 30px;
+    }
+    
+    .presentacion-foto{
+     width: 200px;
+    }
+    .contenedor-sobremi{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .contenedor-img .presentacion-foto{
+        width: 200px;
+
+    }
+    .contenedor{ 
+        width: 100%;
+        
+    }
+    .button-leerMas{
+        width: 120px;
+        padding: 10px;
+        font-size: 15px;
+        margin-right: 10%;
+    }
+    }
+   

@@ -1,0 +1,84 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    justify-content: center;
+    padding: 20px 20px;
+    padding-left: 40%;
+
+    
+    
+}
+.mail{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+}
+
+
+.form input{
+    padding: 5px;
+}
+.form textarea{
+ padding: 20px;
+}
+
+.contacto-titulo {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 2%;
+    
+}
+
+button{
+    background-color: rgb(228, 9, 236);
+    border-radius: 40px;
+    padding: 5px;
+    margin-top: 2%;
+}
+
+.cv{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 80px 0;
+   
+  
+    
+}
+
+.cv figure button{
+    padding: 10px;
+}
+
+.cv figure button a{
+    text-decoration: none;
+    color: black;
+}
+
+.cv figure button:hover{
+    background-color: rgb(223, 223, 236);
+}
+
+
+@media (max-width:500px) {
+       .form input{
+        padding: 15px;
+        width: 200px;
+    }
+    .form textarea{
+        width: 192px;
+    }
+    .formulario{
+    margin-right: 30%;
+    }
+    .cv figure button a{
+        text-decoration: none;
+        color: white;
+    }
+    .cv figure button{
+        background-color: rgb(228, 9, 236);
+        border-radius: 40px rgb(228, 9, 236);
+        padding: 10px;
+        margin-top: 2%;
+    }
+
+}
